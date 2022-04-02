@@ -18,3 +18,9 @@ Console.WriteLine(formatted);
 
 Console.WriteLine($"{numberOfApples} apples costs {pricePerApple * numberOfApples:c}");
 
+const string firstname = "Virgo";
+const string lastname = "Coachman";
+const string fullname = $"{firstname} {lastname}";
+
+Console.WriteLine($"My name is : {fullname}");
+
