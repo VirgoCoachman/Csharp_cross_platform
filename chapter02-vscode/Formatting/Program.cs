@@ -35,4 +35,9 @@ WriteLine("{0, -10} {1, 6 :N0}", "Name", "Count");
 WriteLine("{0, -10} {1, 6 :N0}", applesText, applesCount);
 WriteLine("{0, -10} {1, 6 :N0}", bananasText, bananasCount);
 
+Write("Press any key combination : ");
+ConsoleKeyInfo keyInfo = ReadKey();
+WriteLine();
+WriteLine($"Key: {keyInfo.Key}, char: {keyInfo.KeyChar}, Modifiers: {keyInfo.Modifiers}");
+
 
