@@ -24,3 +24,14 @@ const string fullname = $"{firstname} {lastname}";
 
 Console.WriteLine($"My name is : {fullname}");
 
+string applesText = "Apples";
+int applesCount = 1234;
+
+string bananasText = "Bananas";
+int bananasCount = 56789;
+
+Console.WriteLine("{0, -10} {1, 6 :N0}", "Name", "Count");
+Console.WriteLine("{0, -10} {1, 6 :N0}", applesText, applesCount);
+Console.WriteLine("{0, -10} {1, 6 :N0}", bananasText, bananasCount);
+
+
