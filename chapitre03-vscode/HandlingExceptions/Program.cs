@@ -22,3 +22,19 @@ catch (Exception ex)
     WriteLine($"{ex.GetType()} says {ex.Message}");
 }
 WriteLine("After parsing");
+
+Write("Enter an amount: ");
+string? amount = ReadLine();
+
+try
+{
+    decimal amountValue = decimal.Parse(amount);
+}
+catch (FormatException) when (amount.Contains("$"))
+{
+    WriteLine("Amounts cannot use the dollar sign!");
+}
+catch (FormatException)
+{
+    WriteLine("Amount must only contain digits!");
+}
