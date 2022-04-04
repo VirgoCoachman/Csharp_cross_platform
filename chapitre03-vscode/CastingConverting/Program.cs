@@ -34,4 +34,13 @@ WriteLine($"My birthday is {birthday}.");
 WriteLine($"My birthday is {birthday:D}");
 WriteLine($"The endTime is {dateTime}.");
 
+Write("How many eggs are there ? ");
+string? input = ReadLine();
 
+if (int.TryParse(input, out int count))
+{
+    WriteLine($"There are {count} eggs.");
+}
+else{
+    WriteLine("I couldn't parse the input.");
+}
