@@ -25,4 +25,13 @@ string encoded = ToBase64String(binaryObject);
 
 WriteLine($"Binary Object as Base64: {encoded}");
 
+int age = int.Parse("27");
+DateTime dateTime = DateTime.MaxValue;
+DateTime birthday = DateTime.Parse("23 Janvier 1991");
+
+WriteLine($"I was born {age} years ago.");
+WriteLine($"My birthday is {birthday}.");
+WriteLine($"My birthday is {birthday:D}");
+WriteLine($"The endTime is {dateTime}.");
+
 
