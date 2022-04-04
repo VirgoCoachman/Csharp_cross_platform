@@ -18,3 +18,5 @@ catch (System.OverflowException)
 {
     WriteLine("The code overflowed but I caught the exception");
 }
+
+int y = int.MaxValue + 1;
