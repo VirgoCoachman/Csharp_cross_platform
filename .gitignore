@@ -455,3 +455,4 @@ $RECYCLE.BIN/
 *.vscode/*
 ../.vscode/
 *.code-workspace
+chapter04-vscode/.vscode/
